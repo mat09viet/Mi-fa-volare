@@ -1,4 +1,3 @@
-# Mi-fa-volare
 # Mi Fa Volare — Progetto Drone con Arduino
 
 ## Descrizione
