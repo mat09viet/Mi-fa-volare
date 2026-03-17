@@ -12,11 +12,11 @@ In questo progetto realizzeremo un **drone** che, tramite un Arduino, possa vola
 
 |Quantità|Componente        |
 |--------|------------------|
-|4x      |Eliche            |
-|4x      |Motorini brushless|
-|1x      |Arduino           |
+|4x      |Eliche            |   v
+|4x      |Motorini brushless|   v
+|1x      |Arduino           |   v
 |1x      |Telaio            |
-|1x      |Batteria          |
+|1x      |Batteria          |   
 |1x      |Sistema radio (TX)|
 |1x      |Flight controller |
 
