@@ -13,7 +13,7 @@ In questo progetto realizzeremo un **drone** che, tramite un Arduino, possa vola
 |Quantità|Componente        |
 |--------|------------------|
 |4x      |Eliche            |
-|1x      |seonsore IMU      |
+|1x      |sensore IMU       |
 |1x      |Arduino           |
 |1x      |Telaio            |
 |1x      |Batteria          |   
