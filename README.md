@@ -123,4 +123,3 @@ void loop() {
 - [ ] Caricare il codice sull’Arduino
 - [ ] Testare il controllo via app / mini controller
 - [ ] Primo volo di prova
-```
