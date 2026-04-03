@@ -24,55 +24,89 @@ In questo progetto realizzeremo un **drone** che, tramite un Arduino, possa vola
 
 ## Codice Arduino
 
+#include <Wire.h>
 #include <Servo.h>
 
-Servo motore1;
-Servo motore2;
-Servo motore3;
-Servo motore4;
+// Motori (ESC)
+Servo m1;
+Servo m2;
+Servo m3;
+Servo m4;
 
-int throttle = 1000; // minimo (ESC di solito 1000-2000)
+// MPU6050
+int MPU = 0x68;
+float AccX, AccY, AccZ;
+float GyroX, GyroY, GyroZ;
+
+// Angoli
+float angoloX, angoloY;
+
+// Throttle base
+int throttle = 1100;
 
 void setup() {
-  motore1.attach(3);
-  motore2.attach(5);
-  motore3.attach(6);
-  motore4.attach(9);
+  Wire.begin();
+  
+  // Attiva MPU6050
+  Wire.beginTransmission(MPU);
+  Wire.write(0x6B);
+  Wire.write(0);
+  Wire.endTransmission(true);
+
+  // Motori
+  m1.attach(3);
+  m2.attach(5);
+  m3.attach(6);
+  m4.attach(9);
 
   // Arm ESC
-  motore1.writeMicroseconds(1000);
-  motore2.writeMicroseconds(1000);
-  motore3.writeMicroseconds(1000);
-  motore4.writeMicroseconds(1000);
-
-  delay(5000); // tempo per armare
-}
-
-void loop() {
-  // aumento graduale velocità
-  for (throttle = 1000; throttle <= 1300; throttle += 5) {
-    motore1.writeMicroseconds(throttle);
-    motore2.writeMicroseconds(throttle);
-    motore3.writeMicroseconds(throttle);
-    motore4.writeMicroseconds(throttle);
-    
-    delay(50);
-  }
-
-  delay(3000);
-
-  // spegnimento
-  for (throttle = 1300; throttle >= 1000; throttle -= 5) {
-    motore1.writeMicroseconds(throttle);
-    motore2.writeMicroseconds(throttle);
-    motore3.writeMicroseconds(throttle);
-    motore4.writeMicroseconds(throttle);
-
-    delay(50);
-  }
+  m1.writeMicroseconds(1000);
+  m2.writeMicroseconds(1000);
+  m3.writeMicroseconds(1000);
+  m4.writeMicroseconds(1000);
 
   delay(5000);
 }
+
+void loop() {
+  // Lettura accelerometro
+  Wire.beginTransmission(MPU);
+  Wire.write(0x3B);
+  Wire.endTransmission(false);
+  Wire.requestFrom(MPU, 6, true);
+
+  AccX = (Wire.read() << 8 | Wire.read()) / 16384.0;
+  AccY = (Wire.read() << 8 | Wire.read()) / 16384.0;
+  AccZ = (Wire.read() << 8 | Wire.read()) / 16384.0;
+
+  // Calcolo angoli (semplificato)
+  angoloX = atan(AccY / sqrt(AccX * AccX + AccZ * AccZ)) * 180 / PI;
+  angoloY = atan(-AccX / sqrt(AccY * AccY + AccZ * AccZ)) * 180 / PI;
+
+  // Controllo base (tipo PID semplificato)
+  int correzioneX = angoloX * 2;
+  int correzioneY = angoloY * 2;
+
+  int m1_speed = throttle + correzioneX - correzioneY;
+  int m2_speed = throttle - correzioneX - correzioneY;
+  int m3_speed = throttle - correzioneX + correzioneY;
+  int m4_speed = throttle + correzioneX + correzioneY;
+
+  // Limiti sicurezza
+  m1_speed = constrain(m1_speed, 1000, 2000);
+  m2_speed = constrain(m2_speed, 1000, 2000);
+  m3_speed = constrain(m3_speed, 1000, 2000);
+  m4_speed = constrain(m4_speed, 1000, 2000);
+
+  // Scrittura motori
+  m1.writeMicroseconds(m1_speed);
+  m2.writeMicroseconds(m2_speed);
+  m3.writeMicroseconds(m3_speed);
+  m4.writeMicroseconds(m4_speed);
+
+  delay(10);
+}
+
 
 -----
 
