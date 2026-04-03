@@ -115,7 +115,7 @@ void loop() {
 
 -----
 
-## Prossimi Passi
+## Prossimi passi
 
 - [ ] Assemblare il telaio
 - [ ] Collegare i motori brushless all’ESC
