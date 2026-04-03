@@ -24,10 +24,11 @@ In questo progetto realizzeremo un **drone** che, tramite un Arduino, possa vola
 
 ## Codice Arduino
 
+```cpp
 #include <Wire.h>
 #include <Servo.h>
 
-// Motori (ESC)
+// ESC / Motori
 Servo m1;
 Servo m2;
 Servo m3;
@@ -35,10 +36,9 @@ Servo m4;
 
 // MPU6050
 int MPU = 0x68;
-float AccX, AccY, AccZ;
-float GyroX, GyroY, GyroZ;
 
-// Angoli
+// Dati sensore
+float AccX, AccY, AccZ;
 float angoloX, angoloY;
 
 // Throttle base
@@ -46,8 +46,8 @@ int throttle = 1100;
 
 void setup() {
   Wire.begin();
-  
-  // Attiva MPU6050
+
+  // Inizializza MPU6050
   Wire.beginTransmission(MPU);
   Wire.write(0x6B);
   Wire.write(0);
@@ -79,26 +79,32 @@ void loop() {
   AccY = (Wire.read() << 8 | Wire.read()) / 16384.0;
   AccZ = (Wire.read() << 8 | Wire.read()) / 16384.0;
 
-  // Calcolo angoli (semplificato)
+  // Calcolo inclinazione
   angoloX = atan(AccY / sqrt(AccX * AccX + AccZ * AccZ)) * 180 / PI;
   angoloY = atan(-AccX / sqrt(AccY * AccY + AccZ * AccZ)) * 180 / PI;
 
-  // Controllo base (tipo PID semplificato)
-  int correzioneX = angoloX * 2;
-  int correzioneY = angoloY * 2;
+  // Correzioni
+  int correzioneX = angoloX * 3;
+  int correzioneY = angoloY * 3;
 
+  // Mix motori
   int m1_speed = throttle + correzioneX - correzioneY;
   int m2_speed = throttle - correzioneX - correzioneY;
   int m3_speed = throttle - correzioneX + correzioneY;
   int m4_speed = throttle + correzioneX + correzioneY;
 
-  // Limiti sicurezza
-  m1_speed = constrain(m1_speed, 1000, 2000);
-  m2_speed = constrain(m2_speed, 1000, 2000);
-  m3_speed = constrain(m3_speed, 1000, 2000);
-  m4_speed = constrain(m4_speed, 1000, 2000);
+  // Limiti
+  if (m1_speed < 1000) m1_speed = 1000;
+  if (m2_speed < 1000) m2_speed = 1000;
+  if (m3_speed < 1000) m3_speed = 1000;
+  if (m4_speed < 1000) m4_speed = 1000;
 
-  // Scrittura motori
+  if (m1_speed > 2000) m1_speed = 2000;
+  if (m2_speed > 2000) m2_speed = 2000;
+  if (m3_speed > 2000) m3_speed = 2000;
+  if (m4_speed > 2000) m4_speed = 2000;
+
+  // Scrittura
   m1.writeMicroseconds(m1_speed);
   m2.writeMicroseconds(m2_speed);
   m3.writeMicroseconds(m3_speed);
@@ -106,7 +112,6 @@ void loop() {
 
   delay(10);
 }
-
 
 -----
 
