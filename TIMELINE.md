@@ -12,17 +12,14 @@
 
 ## milestone
 
-data                          obbiettivo
-
-21 aprile                     studio componenti
-                 
-28 aprile                     
-                 
- 5 maggio                
-
-12 maggio
-
-19 maggio
-
+|data       |obbiettivo        |
+|-----------|------------------|
+|21apr      |Eliche            |
+|28apr      |sensore IMU       |
+|5mag       |Arduino           |
+|12mag      |Telaio            |
+|19mag      |Batteria          |   
+|           |motori bruchhless |
+|           |Flight controller |
 
 
