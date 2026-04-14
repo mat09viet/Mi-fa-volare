@@ -17,7 +17,7 @@
 |21apr      |studio componenti |
 |28apr      |assembare il telaio       |
 |5mag       |Configurare il flight controller           |
-|12mag      |Telaio            |
+|12mag      |Caricare il codice sull’Arduino            |
 |19mag      |Batteria          |   
 |           | |
 |           | |
