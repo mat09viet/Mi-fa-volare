@@ -14,12 +14,12 @@
 
 |data       |obbiettivo        |
 |-----------|------------------|
-|21apr      |Eliche            |
+|21apr      |studio componenti |
 |28apr      |sensore IMU       |
 |5mag       |Arduino           |
 |12mag      |Telaio            |
 |19mag      |Batteria          |   
-|           |motori bruchhless |
-|           |Flight controller |
+|           | |
+|           | |
 
 
