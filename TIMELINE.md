@@ -15,7 +15,7 @@
 |data       |obbiettivo        |
 |-----------|------------------|
 |21apr      |studio componenti |
-|28apr      |sensore IMU       |
+|28apr      |assembare il telaio       |
 |5mag       |Arduino           |
 |12mag      |Telaio            |
 |19mag      |Batteria          |   
