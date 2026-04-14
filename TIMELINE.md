@@ -19,7 +19,7 @@
 |5 mag       |Configurare il flight controller           |
 |12 mag      |Caricare il codice sull’Arduino            |
 |19 mag      |Testare il controllo via app / mini controller          |   
-|26 mag      | |
+|26 mag      |Primo volo di prova|
 |           | |
 
 
