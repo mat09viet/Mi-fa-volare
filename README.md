@@ -22,11 +22,4 @@ In questo progetto realizzeremo un **drone** che, tramite un Arduino, possa vola
 
 -----
 
-## Prossimi passi
 
-- [ ] Assemblare il telaio
-- [ ] Collegare i motori brushless all’ESC
-- [ ] Configurare il flight controller
-- [ ] Caricare il codice sull’Arduino
-- [ ] Testare il controllo via app / mini controller
-- [ ] Primo volo di prova
