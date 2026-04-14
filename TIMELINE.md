@@ -14,12 +14,12 @@
 
 |data       |obbiettivo        |
 |-----------|------------------|
-|21apr      |studio componenti |
-|28apr      |assembare il telaio       |
-|5mag       |Configurare il flight controller           |
-|12mag      |Caricare il codice sull’Arduino            |
-|19mag      |Batteria          |   
-|           | |
+|21 apr      |studio componenti |
+|28 apr      |assembare il telaio       |
+|5 mag       |Configurare il flight controller           |
+|12 mag      |Caricare il codice sull’Arduino            |
+|19 mag      |Testare il controllo via app / mini controller          |   
+|26 mag      | |
 |           | |
 
 
