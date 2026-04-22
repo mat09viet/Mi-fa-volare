@@ -6,6 +6,7 @@
 |-----------|------------------|
 |14 apr     |preparazione sito github                   |
 |21 apr     |ordinazione componenti |
+|22 apr     |ordinazione batteria drone |
 |28 apr     |studio componenti      |
 |5 mag      |        |
 |12 mag     |       |
