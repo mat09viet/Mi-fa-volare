@@ -12,4 +12,7 @@
 
 [TELECOMANDO](https://www.amazon.it/Prodrocam-estensibile-Controller-Sensibilit%C3%A0-Regolabile/dp/B09192SQTN/ref=sr_1_20?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=26CFN0YHO1BTB&dib=eyJ2IjoiMSJ9.nd8TQKGbmpTwY0Rm5g7onzs5IOcZDGyJ0rWI77C15_y3B3uDgaLir9wGusvbLTEr8wp5IjTnDGOWIZ25CC43pXLpaWcWIf1dsFQ-qJABVqV7wEtORQ1TqvLBBDu_9YO-IR61-GvCMIxWo5U4SSM63AbTYnQmkpN67_DnF6vO8BWeOVJvKyNNEHLD99fFFLYBsveZY-3XzUhHN7pUCmNF4ZTs8X3lhOK9QcP_wXjzOm8E-uWVK7tiJfLV8GjaGWZHu-DQZqPpZ721cOIeWG42FRAzj8X2vee-Ac4Q8JOHfPw.Xq2hDYBj40H569jgpf6H_uuvTAq7xTWi9ogpNIFu7qY&dib_tag=se&keywords=telecomando%2Bdrone&qid=1774961027&sprefix=telecomando%2Bdrone%2Caps%2C230&sr=8-20&th=1)     16.99 euro
 
+
+[kit drone](https://www.amazon.it/montaggio-quadricottero-trasportare-telecomandato-assemblaggio/dp/B0BP2B426P/ref=asc_df_B0BP2B426P?mcid=d9811e81a4403cad872f56e8d89fb87e&tag=googshopit-21&linkCode=df0&hvadid=729668464065&hvpos=&hvnetw=g&hvrand=15107926959288135195&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008846&hvtargid=pla-2346319504727&psc=1&hvocijid=15107926959288135195-B0BP2B426P-&hvexpln=0)
+
 ## TOT 88.68 euro
