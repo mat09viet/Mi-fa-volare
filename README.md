@@ -12,14 +12,9 @@ In questo progetto realizzeremo un **drone** trovato nel materiale della scuola,
 
 |Quantità|Componente        |
 |--------|------------------|
-|4x      |Eliche            |
-|1x      |sensore IMU       |
-|1x      |Arduino           |
-|1x      |Telaio            |
-|1x      |Batteria          |   
-|4x      |motori bruchhless |
-|1x      |Flight controller |
-
+|1x      |drone della scuola            |
+|1x      |batteria nuova       |
+|1x      |PC con terminale          |
 -----
 
 
