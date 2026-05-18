@@ -8,9 +8,9 @@
 |21 apr     |ordinazione componenti |
 |27 apr     |ordinazione batteria drone |
 |28 apr     |programmazione tello    |
-|5 mag      |        |
-|12 mag     |       |
-|19 mag     |        |   
+|5 mag      |programmazione tello      |
+|12 mag     |arrivo batteria       |
+|19 mag     |test del drone        |   
 |26 mag     ||
 |           | |
 
@@ -20,7 +20,7 @@
 |-----------|------------------|
 |arangino     |ricerca componenti |
 |buccheri     |costruzione sito github     |
-|fazzalari      |costruzione sito github        |
+|fazzalari      |costruzione sito github e scrittura del codice       |
 |assieme         |costruzione finale|
 
 
