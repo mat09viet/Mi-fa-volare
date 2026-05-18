@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-In questo progetto realizzeremo un **drone** che, tramite un Arduino, possa volare ed essere comandato da un controller.
+In questo progetto realizzeremo un **drone** trovato nel materiale della scuola, tramite il terminale di python, possa volare ed essere comandato da un controller.
 
 **Obiettivo minimo:** far muovere le pale tramite un’app o un mini controller.
 
