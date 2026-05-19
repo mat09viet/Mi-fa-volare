@@ -17,10 +17,10 @@
 
 |gruppo    |compiti      |
 |-----------|------------------|
-|arangino     |ricerca componenti |
-|buccheri     |costruzione sito github     |
-|fazzalari      |costruzione sito github e scrittura del codice       |
-|assieme         |costruzione finale|
+|arangino     |aiuto sito github e codice |
+|buccheri     |studio drone,inserimento dei codici e test     |
+|fazzalari      |scrittura codice tello e github      |
+|assieme         |creazione codice per riconoscimento facciale|
 
 
 
