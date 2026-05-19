@@ -6,7 +6,7 @@
   |---------------|-----------------|----------------|-------------------|----------------|
 
 
-██████████████████████████████████████████████████████████████████████████████████████████→
+█████████████████████████████████████████████████████████████████████████████████████→
                                                               
                                                            
 
@@ -15,11 +15,11 @@
 |data       |obbiettivo        |
 |-----------|------------------|
 |21 apr      |studio componenti |
-|28 apr      |assembare il telaio       |
-|5 mag       |Configurare il flight controller           |
-|12 mag      |Caricare il codice sull’Arduino            |
-|19 mag      |Testare il controllo via app / mini controller          |   
-|26 mag      |Primo volo di prova|
+|28 apr      |sistemazione git hub       |
+|5 mag       |arrivo della nuova batteria con i test           |
+|12 mag      |primo volo di prova            |
+|19 mag      |testare codice PY per il volo          |   
+|26 mag      |aggiungere riconoscimento facciale|
 |           | |
 
 
