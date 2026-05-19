@@ -5,8 +5,7 @@
 |data       |svolgimento settimanale       |
 |-----------|------------------|
 |14 apr     |preparazione sito github                   |
-|21 apr     |ordinazione componenti |
-|27 apr     |ordinazione batteria drone |
+|21 apr     |ordinazione componentistudio funzionamento drone|
 |28 apr     |programmazione tello    |
 |5 mag      |programmazione tello      |
 |12 mag     |arrivo batteria       |
