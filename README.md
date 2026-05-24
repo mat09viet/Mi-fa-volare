@@ -9,7 +9,7 @@ oppure il controllo manuale tramite PC.
 <img width="350" height="339" alt="image" src="https://github.com/user-attachments/assets/1c582697-27cf-4809-8ae7-1e14a0013ed2" />
 
 
-##Obiettivo riconoscimento facciale: 
+## Obiettivo riconoscimento facciale: 
 il nostro obbiettivo e di creare un codice python in grado di :
 comandare il drone autonomamente o manualmente ma senza l'uso di un controller 
 e di far riconoscere il volto di una persona per farla seguire.
