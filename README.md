@@ -46,3 +46,10 @@ e in fine con il terzo riesce a prendere e ricordare il volto di una persona.
 
 5.infine avviare il proprio codice e iniziare ad utilizzare il drone tello
 
+## realizzazione progetto:
+
+**progetto realizzato da:**
+
+buccheri Luca
+fazzalari Mathias
+arangino Alessandro
