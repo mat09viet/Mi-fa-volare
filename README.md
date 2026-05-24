@@ -34,17 +34,17 @@ e in fine con il terzo riesce a prendere e ricordare il volto di una persona.
 
 ## come istallare i codici per iniziare il volo
 
-1.scaricare il proprio codice sul descktop del proprio PC
+**1.** scaricare il proprio codice sul descktop del proprio PC
 
-2.aprire il terminale del PC
+**2.** aprire il terminale del PC
 
-3.scaricare nel terminalele librerie python e 
+**3.** scaricare nel terminalele librerie python e 
   le libreie mediapipe per il riconoscimento facciale
 
-4.inserire nel terminale il comando corretto con il nome de file del codice sul descktop
+**4.** inserire nel terminale il comando corretto con il nome de file del codice sul descktop
   e aspettare il caricamento per la compatibilità
 
-5.infine avviare il proprio codice e iniziare ad utilizzare il drone tello
+**5.** infine avviare il proprio codice e iniziare ad utilizzare il drone tello
 
 ## realizzazione progetto:
 
