@@ -50,6 +50,9 @@ il drone automaticamente riuscira a ricreare in volo quella lettera.
 
 ## progetto alfabeto:
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/b58ccd35-f9f8-40ac-b6fd-a6b36ebcfb9a" />
+
+
 questo è il nostro quarto codice ed è il piu grande.
 con questo codice il nostro drone e in grado di ricopiare automaticamente in volo qualunque lettera
 noi inseriamo da tastiera esempio se clicchiamo la L allora il drone:
