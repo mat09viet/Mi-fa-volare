@@ -27,10 +27,12 @@ e di far riconoscere il volto di una persona per farla seguire.
 
 ## come funziona :
 
-grazie a 3 tipi diversi di codici creati con python ,il nostro drone
+grazie a 4 tipi diversi di codici creati con python ,il nostro drone
 è in grado con il primo codice di seguire autonomamente un persorso stabilito da noi,
-con il secondo codice riusciamo a comandare ogni movimento tramite frecce e tastiera del PC
-e in fine con il terzo riesce a prendere e ricordare il volto di una persona.
+con il secondo codice riusciamo a comandare ogni movimento tramite frecce e tastiera del PC,
+con il terzo riesce a prendere e ricordare il volto di una persona e in fine con il 4 
+riusciamo sia a comandare il drone come vogliamo ma anche cliccando qualunque lettera della tastiera , 
+il drone automaticamente riuscira a ricreare in volo quella lettera.
 
 ## come istallare i codici per iniziare il volo
 
@@ -45,6 +47,17 @@ e in fine con il terzo riesce a prendere e ricordare il volto di una persona.
   e aspettare il caricamento per la compatibilità
 
 **5.** infine avviare il proprio codice e iniziare ad utilizzare il drone tello
+
+## progetto alfabeto:
+
+questo è il nostro quarto codice ed è il piu grande.
+con questo codice il nostro drone e in grado di ricopiare automaticamente in volo qualunque lettera
+noi inseriamo da tastiera esempio se clicchiamo la L allora il drone:
+si spostera in dietro di 1 metro e poi a destra di 50cm.
+con questo codice si riesce cosi a creare parole intere creando cosi un piccolo metodo di comunicazione.
+questo codice utilizza delle librerie python per utilizzare la scrittura python per il nostro codice 
+e utilizza anche una libreria keyboard che è in grado di controllare tutti gli imput da tastiera
+cosi che riesca a memorizzare le lettere che inseriamo e far partire il pezzo di codice inerente a quella lettera.
 
 ## realizzazione progetto:
 
