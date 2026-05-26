@@ -2,7 +2,7 @@
 
 ## progetto
 
-In questo progetto programmeremo un **drone**scolastico, tramite il terminale di python 
+In questo progetto programmeremo un **drone** scolastico, tramite il terminale di python 
 in modo che sia in grado di volare autonomamente tramite semplici comandi
 oppure il controllo manuale tramite PC.
 
