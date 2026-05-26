@@ -10,7 +10,7 @@
 |5 mag      |arrivo batteria             |
 |12 mag     |studio drone       |
 |19 mag     |test del drone        |   
-|26 mag     ||
+|26 mag     |esposizione|
 |           | |
 
 ## divisione dei compiti
