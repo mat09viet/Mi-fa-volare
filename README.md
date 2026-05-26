@@ -66,6 +66,6 @@ cosi che riesca a memorizzare le lettere che inseriamo e far partire il pezzo di
 
 **progetto realizzato da:**
 
-buccheri Luca
-fazzalari Mathias
-arangino Alessandro
+Buccheri Luca,
+Fazzalari Mathias,
+Arangino Alessandro
