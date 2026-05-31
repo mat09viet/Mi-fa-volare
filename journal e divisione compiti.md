@@ -5,7 +5,7 @@
 |data       |svolgimento settimanale       |
 |-----------|------------------|
 |14 apr     |preparazione sito github                   |
-|21 apr     |completamentosito github|
+|21 apr     |completamento sito github|
 |28 apr     |preparazione codice tello    |
 |5 mag      |arrivo batteria             |
 |12 mag     |studio drone       |
